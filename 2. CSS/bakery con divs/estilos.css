@@ -1,0 +1,234 @@
+body{
+    padding:0px;
+    margin:0px;
+}
+
+.pagina{ 
+    width:1470px;
+    margin: 0 auto;
+    border: 1px solid #98CE00;
+    position: relative;
+}
+
+.menu {
+    background-color: #ffbcb5;
+    height: 80px;
+    position: fixed;
+    width: 1470px;
+    z-index: 9;
+}
+
+.opcion a {
+    position: relative;
+    top: -30px;
+    left: 440px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid #98CE00;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo-uno {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: #fff;
+    border: 3px solid #98CE00;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 4px;
+}
+
+.header{
+    height:200px;
+    background-image: url("../img/header.jpg");
+    background-position: center;
+    background-color: #ffbcb5;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#fff;
+    font-weight: 700;
+    text-align: center;
+    border: 3px solid #98CE00;
+    
+}
+
+.whitepaco{
+    width: 100%;
+    height: 287px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    opacity: 0.6;
+}
+
+.box{
+    width: 250px;
+    height: 130px;
+    border: 3px solid #98CE00;
+    color:#FF9E6E;
+}
+
+.logo {
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+.contacto{
+    position: relative;
+    left:1180px;
+    top:-105px;
+}
+
+.center{
+    position:relative;
+    top:-240px;
+    left:610px;
+}
+
+.relleno {
+    height: 80px;
+}
+
+.content {
+    border: 3px solid #98CE00;
+    height: 840px;
+}
+
+.menu-lateral{
+    height:840px;
+    width:300px;
+    background-color:#feffbe;   
+}
+
+.caja{
+    height: 100px;
+    width: 260px;
+    border: 3px solid #98CE00;
+    position: relative;
+    left:20px;
+    color:#fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 17px;
+    text-align: center;
+    background-color: #FF9E6E;
+    position:relative;
+    text-decoration: none;
+    
+}
+
+#caja1{
+    top:35px;
+}
+
+#caja2 {
+    top: 60px;
+}
+
+#caja3 {
+    top: 90px;
+}
+
+#caja4 {
+    top: 120px;
+}
+
+#caja5 {
+    top: 150px;
+}
+
+#caja6 {
+    top: 180px;
+}
+
+.parrafo{
+    position:relative;
+    left:300px;
+    top:-843px;
+    height: 840px;
+    width:1161px;
+    border:3px solid #98CE00;
+    background-color: #FFBFA0;
+}
+
+.footer{
+    height:350px;
+    background-image: url("../img/footer.jpg");
+    background-position: center;
+    background-color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    border: 3px solid #98CE00;
+    margin-bottom: 0%;
+}
+
+.opaco{
+    width:100%;
+    height:351px;
+    background-color: #07020d;
+    position:absolute;
+    top:1135px;
+    opacity: 0.7;
+}
+
+.box-footer{
+    border: 3px solid #98CE00;
+    color: #fff;
+    position:relative;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.company{
+    height: 280px;
+    width:250px;
+    top:35px;
+    left:30px;
+}
+
+.tel{
+    height:150px;
+    width:280px;
+    top:-251px;
+    left:300px;
+}
+
+.mail{
+    width:280px;
+    top:-240px;
+    left:300px;
+    height:114px;
+}
+
+#uno{
+    width:400px;
+    height:100px;
+    top:-527px;
+    left:1000px;
+}
+
+#dos {
+    width: 190px;
+    height: 158px;
+    top: -510px;
+    left: 1000px;
+}
+
+#tres {
+    width: 190px;
+    height: 158px;
+    top: -674px;
+    left: 1210px;
+}

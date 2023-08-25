@@ -1,0 +1,16 @@
+/*Ejercicio 1*/
+body{margin: 0px; padding: 0px; font-family: Verdana, Geneva, Tahoma, sans-serif }
+h1{color: #00528C}
+p{font-size: 12pt}
+h2{color: #2E3191; border-bottom: 1px solid #2E3191;}
+span{font-weight: bold;}
+a{text-decoration: none; color:#17A2B8}
+a:hover{color:#FF5A5F}
+/*Ejercicio 2*/
+.encabezado{background-color: #1b1464}
+.encabezado img{width: 600px; padding:20px;}
+.menuLateral ul{list-style: none; margin:0px; padding: 0px; margin-right:20px;}
+.menuLateral ul li{background-color: #17A2B8; border:1px solid red; padding: 20px 10px}
+.menuLateral ul li a{color: #000}
+.menuLateral ul li a:hover{color: #fff}
+

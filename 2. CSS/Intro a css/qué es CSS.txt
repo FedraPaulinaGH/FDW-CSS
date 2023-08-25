@@ -1,0 +1,130 @@
+<!--CSS-->
+
+<!--esto es una regla
+estilo es font famliy 
+valor es Verdana-->
+<p style="font-family:Verdana;">
+    Este es un texto en Verdana
+</p>
+
+dentro de la misma pagina html, en la seccion head
+<head>
+    <style type="text/css">
+        p{font-family; Verdana;}
+    </style>
+</head>
+
+estilo: font-family --> indica que es lo que se modificará del/los elementos seleccionados
+valor: Verdana --> Indica de que forma se modificará el estilo del elemento
+
+
+Forma 3
+un archivo aparte
+<head>
+    <link href="misEstilos.css" rel="stylesheet"
+    type="text/css">
+</head>
+
+
+
+Maneras de definir estilos:
+<!--1-->
+p{
+    nombreEstilo1:valor;
+    nombreEstilo2:valor;
+    .....
+}
+
+<!--2-->
+.nombreClase{
+    nombreEstilo1:valor;
+    nombreEstilo2:valor;
+    .....
+}
+
+<p class="nombre">Ernesto Sánchez Jiménez</p>
+
+.nombre{
+    color:#0000BB;
+    font-size:12pt;
+}
+
+<!--3-->
+#ID{
+    nombreEstilo1:valor;
+    nombreEstilo2:valor;
+    .....
+}
+
+<p id="nombre">Ernesto Sánchez Jiménez</p>
+#nombre{
+    color:#0000BB;
+    font-size:12 pt;
+}
+no se puede repetir ID, es único
+
+https://www.w3schools.com/css/css_syntax.asp
+
+SELECTORES DESCENDENTES
+Selecciona elementos que estan dentro de otros elementos
+nombreEtiqueta{}
+#identificadorEtiqueta{}
+.nombreClase{}
+
+<p>Este es un texto extenso <span> y <a href="index2.html">este</a> es un enlace</span> y quiero modificarlo</p>
+
+p span a{
+    color:#F00;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+NO confundir con combinación de SELECTORES
+
+p, span, a{
+    color:#F00;
+    text-decoration:underline;
+    text-transform:uppercase;
+}
+
+Esto implica que el estilo se aplicará a los elementos p, span y a
+
+
+SELECTORES DE CLASE
+pueden existir varias clases con el mismo nombre, para diferenciarlos, podemos utilizar la 
+etiqueta a la que se aplicará
+
+<a href="#" class="seleccionado">enlace</a>
+<img class="seleccionado" src="img.jpg" alt="" />
+
+a.seleccionado{text-decoration:none;}
+img.seleccionado{border:thin blue solid; width:200px;}
+
+no confundir con combinacion de SELECTORES
+a .seleccionado{text-decoration:none;}
+a, .seleccionado{text-decoration:none;}
+
+Es habitual que los estilos que se aplican a un selector se definan en diferentes reglas;
+a{text-decoration:none;}
+...........
+a{color:#f0f;}
+......
+a{font-family:Verdana}
+
+
+ejemplo
+p{color:red} & p{color:#f0f;}
+cual se elije??? -la mas cercana, la que se indicó en el ultimo lugar
+
+si ambas reglas tienen la misma prioridad, se aplica la que se indicó en último lugar
+Para establecer la prioridad de una regla, se utiliza la palabra clave !important
+
+p{color:black !important}
+....
+p{color:#f0f}
+
+
+
+
+
+

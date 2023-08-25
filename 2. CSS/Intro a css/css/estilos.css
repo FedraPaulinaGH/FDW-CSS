@@ -1,0 +1,9 @@
+/*Selector de etiqueta*/
+p{color: aquamarine}
+
+/*Selector de clase*/
+.miClase{
+    font-family:Verdana, Geneva, Tahoma, sans-serif}
+
+/*Selector de Identificador*/
+#uno{font-size:45pt;}

@@ -1,0 +1,53 @@
+/*RELATIVO*/
+
+.techo{
+    width:300px;
+    height:40px;
+    background-color: red;
+    border: 3px solid black;
+}
+
+.fachada{
+    width:250px;
+    height:250px;
+    background-color: gray;
+    border: 3px solid black;
+    position:relative;
+    left:25px;
+}
+
+.ventana{
+    width:50px;
+    height:50px;
+    border: 3px solid black;
+    background-color: blue;
+}
+
+.uno{
+    position:relative;
+    top: 40px;
+    left:10px;
+}
+
+.dos{
+    position: relative;
+    left:170px;
+    top:50px;
+}
+
+.puerta{
+    width:70px;
+    height:70px;
+    background-color: brown;
+    border:3px solid black;
+    position: relative;
+    top:65px;
+    left:90px;
+}
+
+.numero{
+    color:black;
+    padding:15px 10px;
+    font-size: 35px;
+    font-weight: bold;
+}

@@ -1,0 +1,33 @@
+/*FIJO*/
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.pagina{
+    width:700px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.menu{
+    width:700px;
+    height:60px;
+    background-color:black;
+    position: fixed;
+    /*position: absolute;*/
+}
+
+.menu a{
+    position: relative;
+    top:15px;
+    margin-right: 30px;
+    color:white;
+    text-decoration: none;
+}
+
+.contenido{
+    margin-top:60px;
+    background-color: antiquewhite;
+}
+

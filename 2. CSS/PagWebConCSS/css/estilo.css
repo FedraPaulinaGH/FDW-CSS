@@ -1,0 +1,51 @@
+/* * {
+    margin:0;
+    padding: 0;
+}*/
+
+h1, h2, h3, h4, h5, h6{
+    color:darksalmon;
+} 
+
+h1{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 15px;
+}
+
+p{
+    color:blueviolet;
+}
+
+p a{
+    color:darkgreen;
+    font-size:20px;
+}
+
+.yellow{
+    color:darkgoldenrod;
+}
+
+#yellow{
+    color:aqua;
+}
+ 
+p .green{
+    color:green;
+}
+
+a[href="http://www.falconmasters.com"]{
+    color:brown;
+    font-size: 30px;
+}
+.tablinks span{
+	background-color:#000;
+	color:#fff;
+}
+
+div span{
+	color:#2F9AD2;
+	font-weight:bolder;
+}
